@@ -147,20 +147,20 @@
 // a. Example : arr1 = [1, 2, 3], arr2 = [4, 5, 6] → [1, 2, 3, 4, 5, 6]
 
 // function comArrays(arr1, arr2) {
-//   const mergedArray = [];
+//   const mergedArray = []
 //   for (let i = 0; i < arr1.length; i++) {
-//     mergedArray.push(arr1[i]);
+//     mergedArray.push(arr1[i])
 //   }
 //   for (let i = 0; i < arr2.length; i++) {
-//     mergedArray.push(arr2[i]);
+//     mergedArray.push(arr2[i])
 //   }
 //   return mergedArray;
 // }
 
-// const arr1 = [1, 2, 3];
-// const arr2 = [4, 5, 6];
+// const arr1 = [1, 2, 3]
+// const arr2 = [4, 5, 6]
 
-// console.log(comArrays(arr1, arr2));
+// console.log(comArrays(arr1, arr2))
 // =====================================================================================================================================
 
 // =====================================================================================================================================
@@ -168,5 +168,25 @@
 // Write a function to find duplicate values in an array
 // a. Example : arr = [1, 2, 2, 2, 3, 3, 4, 5, 5] → [2, 3, 5]
 
+// function findDuplicates(arr) {
+//   const duplicates = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     let count = 0;
+//     for (let j = 0; j < arr.length; j++) {
+//       if (arr[i] === arr[j]) {
+//         count++;
+//       }
+//     }
+//     if (count > 1 && !duplicates.includes(arr[i])) {
+//       duplicates.push(arr[i]);
+//     }
+//   }
+//   return duplicates;
+// }
+// console.log(findDuplicates([1, 2, 2, 2, 3, 3, 4, 5, 5]));
 // =====================================================================================================================================
 
+// =====================================================================================================================================
+// Soal No. 10
+
+// =====================================================================================================================================
